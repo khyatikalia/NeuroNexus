@@ -66,7 +66,12 @@
 
       <div class="form-group">
         <label for="department">Department</label>
-        <select id="department" name="department" required>
+        <select
+          style="color: #606569"
+          id="department"
+          name="department"
+          required
+        >
           <option value="" disabled selected>Select your department</option>
           <option value="HR">HR</option>
           <option value="Sales">Sales</option>
@@ -82,15 +87,12 @@
             display: block;
             margin-bottom: 8px;
             font-weight: 600;
-            color: #3c4043;
+            font-size: 0.8rem;
+            color: #163086;
           "
           >Gender</span
         >
-        <div
-          class="radio-group"
-          role="radiogroup"
-          aria-labelledby="gender-label"
-        >
+        <div class="radio-group">
           <label
             ><input type="radio" name="gender" value="Male" required />
             Male</label
